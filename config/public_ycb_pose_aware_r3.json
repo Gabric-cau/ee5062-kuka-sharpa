@@ -1,0 +1,75 @@
+{
+  "ycb_can": {
+    "aperture_offset": [-0.01, 0.035, 0.065],
+    "thumb_opposition_rad": 1.0,
+    "thumb_mcp_flexion_ratio": 0.4,
+    "thumb_ip_flexion_ratio": 1.2,
+    "contact_closure": {
+      "thumb": 0.5667617797851562,
+      "index": 0.13119354248046877,
+      "middle": 0.20696105957031252,
+      "ring": 0.32407989501953127,
+      "pinky": 0.0
+    },
+    "force_targets_n": {
+      "thumb": 3.2113539327490974,
+      "index": 1.0,
+      "middle": 1.9017611431588224,
+      "ring": 2.2047691985495035,
+      "pinky": 0.0
+    },
+    "nominal_static_gravity_capacity_multiplier": 3.9954432213777094,
+    "nominal_shallow_penetration_m": 0.0005,
+    "geometry_evidence": "results/public_ycb_static_wrench_can_20261014/ycb_can_ranked.json, first geometry-only candidate",
+    "geometry_scope": "Nominal static LP; 1.5 times minimum supporting load, active-contact floor1N and absent pinky stays open; not dynamic success"
+  },
+  "ycb_potted_meat_can": {
+    "aperture_offset": [-0.00242397, 0.02941985, 0.055],
+    "thumb_opposition_rad": 1.2,
+    "thumb_mcp_flexion_ratio": 0.8,
+    "thumb_ip_flexion_ratio": 0.8,
+    "contact_closure": {
+      "thumb": 0.0588531494140625,
+      "index": 0.24165649414062498,
+      "middle": 0.15552673339843748,
+      "ring": 0.15889129638671873,
+      "pinky": 0.2816192626953125
+    },
+    "force_targets_n": {
+      "thumb": 4.0,
+      "index": 2.0,
+      "middle": 1.0,
+      "ring": 1.5,
+      "pinky": 2.3
+    },
+    "nominal_static_gravity_capacity_multiplier": 3.952984593259362,
+    "nominal_shallow_penetration_m": 0.001,
+    "geometry_evidence": "results/public_ycb_static_wrench_20261014/ycb_potted_meat_can_ranked.json, first geometry-only candidate",
+    "allocation_evidence": "results/public_ycb_native_geometry_diagnosis_20261014/meat_readiness_allocation_r2.json",
+    "geometry_scope": "Nominal static geometry; fixed development pressure goals round up offline r2 measured-contact1.5xgravity allocation plus1N middle floor. Offline COM was used only for the saved calibration diagnosis, never a live pose/control input. Not held-out or dynamic success"
+  },
+  "ycb_cracker_box": {
+    "aperture_offset": [0.01920781, 0.01999887, 0.2],
+    "thumb_opposition_rad": 1.2,
+    "thumb_mcp_flexion_ratio": 0.8,
+    "thumb_ip_flexion_ratio": 0.8,
+    "contact_closure": {
+      "thumb": 0.17295989990234376,
+      "index": 0.2438522338867187,
+      "middle": 0.24917602539062497,
+      "ring": 0.1715728759765625,
+      "pinky": 0.12373352050781251
+    },
+    "force_targets_n": {
+      "thumb": 3.2458218188896344,
+      "index": 2.8066975478256946,
+      "middle": 2.8972254633309308,
+      "ring": 1.0,
+      "pinky": 2.1742469825862177
+    },
+    "nominal_static_gravity_capacity_multiplier": 3.699993451428905,
+    "nominal_shallow_penetration_m": 0.001,
+    "geometry_evidence": "results/public_ycb_static_wrench_20261014/ycb_cracker_box_ranked.json, first geometry-only candidate",
+    "geometry_scope": "Nominal static LP; same selected posture as r2 with1N ring floor and held-RGBD XY receiving correction; not dynamic success"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ycb_can": {
+    "aperture_offset": [0.0, 0.015, 0.055],
+    "thumb_opposition_rad": 1.2,
+    "thumb_mcp_flexion_ratio": 0.4,
+    "thumb_ip_flexion_ratio": 1.2,
+    "contact_closure": {
+      "thumb": 0.49565887451171875,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 0.22474822998046873,
+      "pinky": 0.33554992675781253
+    },
+    "force_targets_n": {
+      "thumb": 4.468621084183719,
+      "index": 0.0,
+      "middle": 0.0,
+      "ring": 2.2031738541114865,
+      "pinky": 1.9715380634634578
+    },
+    "nominal_shallow_penetration_m": 0.00025,
+    "geometry_evidence": "results/public_ycb_sidewall_geometry_20261021_r2/ranked.json",
+    "geometry_evidence_sha256": "843e36d5c30d6196a698f9d0e2270765065993f7a75aed7df8fec8da39701e7c",
+    "geometry_rank": 4,
+    "geometry_scope": "Offline private public-mesh geometry; thirteen authored static pose-error checks passed, not a dynamic or held-out success rate",
+    "sensitivity_evidence": "results/public_ycb_sidewall_geometry_20261021_r2/candidate_sensitivity/rank4/sensitivity.json",
+    "sensitivity_evidence_sha256": "a9eca228a2891f0eced4815e4a9b707bf175df37a832f29dbe623b9617b21e53",
+    "static_sidewall_metrics": {
+      "allocated_max_abs_normal_z": 0.15881211391086444,
+      "allocated_weighted_abs_normal_z": 0.04298255631131638,
+      "closed_hand_table_clearance_m": 0.04568937985521638,
+      "open_approach_robot_table_clearance_m": 0.05472524466189384,
+      "open_approach_hand_mesh_clearance_m": 0.012203396052492215,
+      "authored_pose_error_cases": 13,
+      "authored_pose_error_cases_passed": 13
+    }
+  }
+}

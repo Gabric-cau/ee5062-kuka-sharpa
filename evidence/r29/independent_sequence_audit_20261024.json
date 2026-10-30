@@ -1,0 +1,146 @@
+{
+  "accepted_evidence": true,
+  "audit_script_sha256": "1ebd8d3e6a6610defe0a547d1fed4942e5f012ad194446e5515e1bbae35eb295",
+  "checks": {
+    "actual_held_before_transfer": true,
+    "actual_held_during_lift_phase": true,
+    "all_transfer_samples_held": true,
+    "released_stable_after_verify_3s": true
+  },
+  "final_release": {
+    "angular_speed_rad_s": 0.03959866016303829,
+    "hand_clearance_m": 0.14846674567698848,
+    "hand_contact": false,
+    "height_error_m": 0.0006259916794408293,
+    "linear_speed_m_s": 0.0019495377653726618,
+    "loaded_table": true,
+    "qualifies": true,
+    "target_position_world_m": [
+      0.6539697042764284,
+      -0.18124273495395202,
+      0.3793740083205592
+    ],
+    "timestamp_s": 162.55400000004806,
+    "xy_error_m": 0.004159680541588266
+  },
+  "format": "independent_r29_task_sequence_audit_v1",
+  "held_before_transfer": {
+    "first_qualified_timestamp_s": 43.52600000000723,
+    "longest_seconds": 3.3960000000041504
+  },
+  "held_during_lift_phase": {
+    "first_qualified_timestamp_s": 43.52600000000723,
+    "longest_seconds": 3.3960000000041504
+  },
+  "input_hashes_after": {
+    "compiled_model.mjb": "271a418f83d882a6c3b398de93c51e43ac6e2150de729dec1e298987ec2b2006",
+    "frozen_source.zip": "81f6a4036a4f2efa2749239c4fb3d2f7223392baa3423aa9fb15e723db44b865",
+    "native.json.gz": "1ec141f77c35868dfbe9267e3819911ba7cefa60a90099941ca938a6d3a7c22a",
+    "protocol.json": "de77ecad72e850e4acd869b99bbf57becefea5144bf47f9093716603ccdfe7ae",
+    "result.json": "a83d73ae1ba3ffff6c015e1059cc31853b9fe3977174efa3a8c3ed20b3d1bb4e",
+    "summary.json": "e1d911613707081df22a6a67031c978e77f0e51d87194646153556686ddb3954"
+  },
+  "input_hashes_before": {
+    "compiled_model.mjb": "271a418f83d882a6c3b398de93c51e43ac6e2150de729dec1e298987ec2b2006",
+    "frozen_source.zip": "81f6a4036a4f2efa2749239c4fb3d2f7223392baa3423aa9fb15e723db44b865",
+    "native.json.gz": "1ec141f77c35868dfbe9267e3819911ba7cefa60a90099941ca938a6d3a7c22a",
+    "protocol.json": "de77ecad72e850e4acd869b99bbf57becefea5144bf47f9093716603ccdfe7ae",
+    "result.json": "a83d73ae1ba3ffff6c015e1059cc31853b9fe3977174efa3a8c3ed20b3d1bb4e",
+    "summary.json": "e1d911613707081df22a6a67031c978e77f0e51d87194646153556686ddb3954"
+  },
+  "limitations": [
+    "One reused seed and 22s validated motor prefix; no randomized success rate or new grasp generator.",
+    "Recorded RGB-D anchor with robot-only rigid propagation; no new visual measurement during continuation.",
+    "Target-specific virtual instrumented table signal is explicitly privileged sensing.",
+    "Post-run target state is used only for evaluation; this script does not test causal control isolation.",
+    "No dynamics stepping/forwarding; clearance uses scratch kinematics and native actual qpos.",
+    "Controller row state is entry label before any same-row transition; native state denotes applied phase."
+  ],
+  "maximum_object_rise_by_phase_m": {
+    "LIFT": 0.0824661875549983,
+    "PLACE": 0.07883347183518019,
+    "PRELOAD": -0.00035893066142517194,
+    "RELEASE": 0.0007833598067465419,
+    "REPLAY": -3.9239999999995945e-05,
+    "RETRACT": -0.00015661951626605441,
+    "SUPPORT_SETTLE": 0.0008522983278461127,
+    "TRANSFER": 0.08292376985345956,
+    "TRIAL_LIFT": 0.0036520433549025455,
+    "VERIFY": -0.0006250505669302409
+  },
+  "minimum_verify_hand_clearance_m": 0.14844599024999036,
+  "native_samples": 81277,
+  "recorded_task_success": true,
+  "released_after_verify": {
+    "first_qualified_timestamp_s": 159.05600000003136,
+    "longest_seconds": 3.4980000000167024
+  },
+  "sequence_checks_passed": true,
+  "task_success_scope": "Sequence supplement only; combine with independent native/command/strict audit",
+  "transfer": {
+    "end_xy_error_m": 0.004615493180205791,
+    "first": {
+      "hand_loaded": true,
+      "held": true,
+      "position_world_m": [
+        0.7074804181850539,
+        -0.008166621683849526,
+        0.4624645955743992
+      ],
+      "table_loaded": false,
+      "timestamp_s": 46.92400000001138
+    },
+    "held_samples": 22792,
+    "last": {
+      "hand_loaded": true,
+      "held": true,
+      "position_world_m": [
+        0.6545785961419938,
+        -0.18058243855044648,
+        0.4587977243402192
+      ],
+      "table_loaded": false,
+      "timestamp_s": 92.50599999996581
+    },
+    "samples": 22792
+  },
+  "transitions": [
+    {
+      "state": "PRELOAD",
+      "timestamp_s": 21.999999999998685
+    },
+    {
+      "state": "TRIAL_LIFT",
+      "timestamp_s": 24.001999999997576
+    },
+    {
+      "state": "LIFT",
+      "timestamp_s": 26.4819999999962
+    },
+    {
+      "state": "TRANSFER",
+      "timestamp_s": 46.92200000001138
+    },
+    {
+      "state": "PLACE",
+      "timestamp_s": 92.50599999996581
+    },
+    {
+      "state": "SUPPORT_SETTLE",
+      "timestamp_s": 112.4599999999193
+    },
+    {
+      "state": "RELEASE",
+      "timestamp_s": 112.77999999991856
+    },
+    {
+      "state": "RETRACT",
+      "timestamp_s": 113.74399999991631
+    },
+    {
+      "state": "VERIFY",
+      "timestamp_s": 159.05400000003135
+    }
+  ],
+  "verified_source_files": 45
+}

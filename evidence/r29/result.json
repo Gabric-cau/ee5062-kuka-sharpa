@@ -1,0 +1,149 @@
+{
+  "duration_s": 140.55400000004937,
+  "failure": null,
+  "final_phase": "VERIFY",
+  "native_audit": {
+    "external_target_qpos_writes": 0,
+    "external_target_qvel_writes": 0,
+    "initial_target_qpos": [
+      0.7063922088707637,
+      -0.008230645056268412,
+      0.38,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "integration_steps": 81277,
+    "native_samples": 81277,
+    "velocity_write_events": [],
+    "write_events": []
+  },
+  "native_cache_channel_peaks_n": {
+    "index": 0.0,
+    "middle": 4.281278605772564,
+    "palm": 0.0,
+    "pinky": 0.0,
+    "ring": 1.3228438917999443,
+    "thumb": 5.451139837483977
+  },
+  "strict_monitor": {
+    "accepted_samples": 81277,
+    "channel_peaks_n": {
+      "index": 0.0,
+      "middle": 4.26374453020502,
+      "palm": 0.0,
+      "pinky": 0.0,
+      "ring": 1.325350119054767,
+      "thumb": 5.421147005134852
+    },
+    "checks": {
+      "all_channels_within_12n": true,
+      "held_lift": true,
+      "native_contiguous_2ms": true,
+      "no_external_target_qpos_writes": true,
+      "no_robot_table_penetration": true,
+      "released_stable_3s": true
+    },
+    "discontinuities": 0,
+    "format": "strict_motion_monitor_r28_v1",
+    "held_seconds": 51.32799999995311,
+    "last_held": false,
+    "last_released_stable": true,
+    "last_timestamp_s": 162.55400000004806,
+    "minimum_robot_table_distance_m": null,
+    "native_audit_assertions": {
+      "external_target_qpos_writes": 0,
+      "integration_steps": 81277,
+      "native_samples": 81277
+    },
+    "native_audit_supplied": true,
+    "observed_samples": 81277,
+    "original_task_success": true,
+    "phase_peaks_n": {
+      "LIFT": 4.999298621340579,
+      "PLACE": 5.421147005134852,
+      "PRELOAD": 4.519718867109588,
+      "RELEASE": 5.252838228615587,
+      "REPLAY": 4.349317994820905,
+      "RETRACT": 0.4594632405768099,
+      "SUPPORT_SETTLE": 5.394915804385942,
+      "TRANSFER": 5.041522504762035,
+      "TRIAL_LIFT": 4.522313086654214,
+      "VERIFY": 0.0
+    },
+    "rejected_timestamps": 0,
+    "released_stable_seconds": 16.320000000077926,
+    "scope": "Privileged target-state motion predicates only; no arbitrary-clutter safety or archive authenticity proof. Strict >70mm rise and >.05N loaded contact; strict release-error/speed/clearance inequalities; whole-episode extrema retained.",
+    "strict_motion_gates_passed": true,
+    "target_privileged_evaluation_only": true,
+    "task_success": true,
+    "thresholds": {
+      "angular_speed_rad_s": 0.2,
+      "channel_peak_n": 12.0,
+      "contact_normal_minimum_n": 0.05,
+      "hand_clearance_m": 0.1,
+      "height_error_m": 0.025,
+      "held_rise_m": 0.07,
+      "held_seconds": 0.1,
+      "linear_speed_m_s": 0.04,
+      "native_timestep_s": 0.002,
+      "released_seconds": 3.0,
+      "robot_table_penetration_m": 0.002,
+      "xy_error_m": 0.025
+    },
+    "whole_episode_peak_n": 5.421147005134852
+  },
+  "success": true,
+  "targets_n": {
+    "index": 0.0,
+    "middle": 3.857429829572646,
+    "palm": 0.0,
+    "pinky": 0.0,
+    "ring": 0.8884376827563812,
+    "thumb": 4.9961985037067915
+  },
+  "transitions": [
+    {
+      "state": "PRELOAD",
+      "timestamp_s": 21.999999999998685
+    },
+    {
+      "state": "TRIAL_LIFT",
+      "timestamp_s": 24.001999999997576
+    },
+    {
+      "state": "LIFT",
+      "timestamp_s": 26.4819999999962
+    },
+    {
+      "state": "TRANSFER",
+      "timestamp_s": 46.92200000001138
+    },
+    {
+      "state": "PLACE",
+      "timestamp_s": 92.50599999996581
+    },
+    {
+      "state": "SUPPORT_SETTLE",
+      "timestamp_s": 112.4599999999193
+    },
+    {
+      "state": "RELEASE",
+      "timestamp_s": 112.77999999991856
+    },
+    {
+      "state": "RETRACT",
+      "timestamp_s": 113.74399999991631
+    },
+    {
+      "state": "VERIFY",
+      "timestamp_s": 159.05400000003135
+    }
+  ],
+  "zone": [
+    0.65,
+    -0.18,
+    0.38
+  ]
+}

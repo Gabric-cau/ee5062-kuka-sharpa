@@ -1,0 +1,102 @@
+{
+  "accepted_evidence": true,
+  "arrival_transitions": [
+    {
+      "continuous_arrival_seconds": 2.0019999999988904,
+      "from": "PRELOAD",
+      "to": "TRIAL_LIFT"
+    },
+    {
+      "continuous_arrival_seconds": 0.14999999999991687,
+      "from": "TRIAL_LIFT",
+      "to": "LIFT"
+    },
+    {
+      "continuous_arrival_seconds": 0.15000000000018332,
+      "from": "LIFT",
+      "to": "TRANSFER"
+    },
+    {
+      "continuous_arrival_seconds": 0.1499999999996504,
+      "from": "TRANSFER",
+      "to": "PLACE"
+    },
+    {
+      "continuous_arrival_seconds": 0.1499999999996504,
+      "from": "SUPPORT_SETTLE",
+      "to": "RELEASE"
+    },
+    {
+      "continuous_arrival_seconds": 0.15000000000071623,
+      "from": "RETRACT",
+      "to": "VERIFY"
+    }
+  ],
+  "audit_script_sha256": "c8c9ff82a21f011b2353df9643db569c4dc42293f092c262be6163d8046886eb",
+  "checked_applied_commands": 70277,
+  "checks": {
+    "actual_arrival_evidence": true,
+    "actual_single_writer_commands": true,
+    "frozen_source_and_inputs": true,
+    "independent_strict_raw_task_audit": true,
+    "joint_rate_deflection_torque_bounds": true,
+    "native_write_assertions_and_denominator": true
+  },
+  "failure": null,
+  "format": "independent_r29_native_command_audit_v1",
+  "maximum_cached_motor_torque_prediction_error_nm": 6.608047442568932e-13,
+  "native_samples": 81277,
+  "recorded_cache_force_peaks_n": {
+    "index": 0.0,
+    "middle": 4.281278605772564,
+    "palm": 0.0,
+    "pinky": 0.0,
+    "ring": 1.3228438917999443,
+    "thumb": 5.451139837483977
+  },
+  "recorded_task_success": true,
+  "scope": "Valid negative experiments may pass evidence audit; fixed-state motor torque bounds are not dynamic contact-force invariants. Journal write counters and aggregate step-start contact-force peaks are runner assertions, not independently replayed physics; integrated-state contacts and commands are independently recomputed.",
+  "source_archive_files": 45,
+  "strict_audit": {
+    "channel_peaks_n": {
+      "index": 0.0,
+      "middle": 4.26374453020502,
+      "palm": 0.0,
+      "pinky": 0.0,
+      "ring": 1.325350119054767,
+      "thumb": 5.421147005134852
+    },
+    "checks": {
+      "all_channels_within_12n": true,
+      "held_lift": true,
+      "legacy_task_success": true,
+      "native_contiguous_2ms": true,
+      "no_external_target_qpos_writes": true,
+      "no_robot_table_penetration": true,
+      "released_stable_3s": true
+    },
+    "held_seconds": 51.347999999953096,
+    "legacy_failure": null,
+    "native_samples": 81277,
+    "path": ".",
+    "phase_peaks_n": {
+      "LIFT": 4.999298621340579,
+      "PLACE": 5.421147005134852,
+      "PRELOAD": 4.519718867109588,
+      "RELEASE": 5.252838228615587,
+      "REPLAY": 4.349317994820905,
+      "RETRACT": 0.4594632405768099,
+      "SUPPORT_SETTLE": 5.394915804385942,
+      "TRANSFER": 5.041522504762035,
+      "TRIAL_LIFT": 4.522313086654214,
+      "VERIFY": 0.0
+    },
+    "released_stable_seconds": 16.320000000077926,
+    "result_sha256": "a83d73ae1ba3ffff6c015e1059cc31853b9fe3977174efa3a8c3ed20b3d1bb4e",
+    "scene_sha256": "4dd442d6a46a5141a2a8726d10bc4d0c085f8f1ebab639fb71974cf8e694ea3e",
+    "strict_success": true,
+    "unknown": false
+  },
+  "summary_sha256": "e1d911613707081df22a6a67031c978e77f0e51d87194646153556686ddb3954",
+  "task_success": true
+}

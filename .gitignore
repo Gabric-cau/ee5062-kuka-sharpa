@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.pytest_cache/
+results/
+artifacts/
+.env
+.env.*
+*.log
+MUJOCO_LOG.TXT
+

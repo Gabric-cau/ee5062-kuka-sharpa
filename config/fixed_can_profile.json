@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "profile_name": "development_close_median_0_9",
+  "mode": "fixed_calibrated",
+  "closure_by_finger": {
+    "thumb": 0.4216,
+    "index": 0.3916,
+    "middle": 0.4008,
+    "ring": 0.466,
+    "pinky": 1
+  },
+  "thumb_opposition_rad": 1,
+  "joint_angles_rad": {
+    "left_thumb_CMC_FE": 1,
+    "left_thumb_CMC_AA": 0,
+    "left_thumb_MCP_FE": 0.33728,
+    "left_thumb_MCP_AA": 0,
+    "left_thumb_IP": 0.33728,
+    "left_index_MCP_FE": 0.3916,
+    "left_index_MCP_AA": 0,
+    "left_index_PIP": 0.54824,
+    "left_index_DIP": 0.31328,
+    "left_middle_MCP_FE": 0.4008,
+    "left_middle_MCP_AA": 0,
+    "left_middle_PIP": 0.56112,
+    "left_middle_DIP": 0.32064,
+    "left_ring_MCP_FE": 0.466,
+    "left_ring_MCP_AA": 0,
+    "left_ring_PIP": 0.6524,
+    "left_ring_DIP": 0.3728,
+    "left_pinky_CMC": 0.12,
+    "left_pinky_MCP_FE": 1,
+    "left_pinky_MCP_AA": 0,
+    "left_pinky_PIP": 1.4,
+    "left_pinky_DIP": 0.8
+  },
+  "close_rate_per_second": 0.4,
+  "retention_enabled": false,
+  "provenance": {
+    "calibration_source": "results/v3_integrated_calibration",
+    "calibration_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "estimator": "per-actuator median",
+    "endpoint": "last CLOSE command",
+    "endpoint_timestamp_s": 6.4,
+    "actuator_order_source": "results/v3_integrated_calibration/scene.xml",
+    "rounding_decimal_places": 6,
+    "trace_sha256": {
+      "0": "bdd997ddb86b657ba3b3428598081fcb9fc64d86e867fa441ae88ba6fb2e60b9",
+      "1": "30d71acdc9b8ab4e02e325d32cb4fd2ae02545e8fd5bc80932d98c505f2cb725",
+      "2": "43eeac74b2abca31fb94166821c4b7328bbeec1cae562efec5724bdeebfacbe6",
+      "3": "a4fd1e0f293ebe3b0db451b7a9d6072750f24fdee2aa46d517dd0f9565f88208",
+      "4": "66c8a40e436b4cfa8885a4074dac794c0e62e1ca67adc1a946780501ebe64373",
+      "5": "6b0b6e48d272bb0c0508f8c65ef3530976ca6f0bd49f53a2abfe8bf74e5c15ad",
+      "6": "97ed8e60f71366c4f015dfa53860563483b7ec372dfa14ca7c47758eab94455f",
+      "7": "09f7d6b5ad48021be8072adb775c6308595273c7dc733505a4b62964244a74e5",
+      "8": "57145d2bbd420e34217ed8d7b123dab09c79bbe2ac4be997cdc2aeb2c2e754e0",
+      "9": "69957a904120500d254a3685ea535d6af89e6b3b54a98d717fc5586b7389767a"
+    },
+    "note": "Derived only from development actuator commands. This fixed posture reads no object pose or contact wrench at deployment."
+  }
+}

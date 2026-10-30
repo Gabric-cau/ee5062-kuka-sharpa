@@ -1,0 +1,45 @@
+{
+  "format": "r29_runtime_inputs_v1",
+  "source_protocol_sha256": "de77ecad72e850e4acd869b99bbf57becefea5144bf47f9093716603ccdfe7ae",
+  "archive_name": "r29-runtime-inputs.zip",
+  "archive_input_bytes": 88882481,
+  "scope": "Exact five recorded inputs required by the unchanged R29 runner. They support one reused development seed; installing them does not reproduce or validate the experiment.",
+  "files": [
+    {
+      "path": "results/public_ycb_rate_limited_probe_20261023_r25_bias10_close32_seed3414/ycb_can_bias_budget_r17_seed3414/native.json.gz",
+      "bytes": 31532295,
+      "sha256": "f18c30dd491f826023d4a1116fd6b17c064a3c733e5969087c70da5b0875f7d9",
+      "archive": true
+    },
+    {
+      "path": "results/public_ycb_rate_limited_probe_20261023_r25_bias10_close32_seed3414/ycb_can_bias_budget_r17_seed3414/result.json",
+      "bytes": 33166005,
+      "sha256": "01946f5a24d4eb220d731728e8110368348f1c652f0697af2c46691a018f3df7",
+      "archive": true
+    },
+    {
+      "path": "results/public_ycb_rate_limited_probe_20261023_r25_bias10_close32_seed3414/ycb_can_bias_budget_r17_seed3414/scene.xml",
+      "bytes": 54250,
+      "sha256": "4dd442d6a46a5141a2a8726d10bc4d0c085f8f1ebab639fb71974cf8e694ea3e",
+      "archive": true
+    },
+    {
+      "path": "results/public_ycb_rate_limited_probe_20261023_r25_bias10_close32_seed3414/ycb_can_bias_budget_r17_seed3414/trace.json.gz",
+      "bytes": 24097791,
+      "sha256": "6b3f34d687c680e353cd628a0ef6ed31a3e2d22a8506fcdbeb2c4516864ce40c",
+      "archive": true
+    },
+    {
+      "path": "results/r28_load_target_diagnostic_20261024/diagnostic.json",
+      "bytes": 32140,
+      "sha256": "2f6a8fc46a8fa7c178631c48a4a3d181d4798cb4b818e88473ebdeff3a2e77dd",
+      "archive": true
+    },
+    {
+      "path": "vendor/ycb/005_tomato_soup_can/005_tomato_soup_can/poisson/nontextured.stl",
+      "bytes": 819184,
+      "sha256": "399f6641934db0c8b36f1216cceda0c90a63454b781aa95dbdd15e5ce9caf7ac",
+      "archive": false
+    }
+  ]
+}

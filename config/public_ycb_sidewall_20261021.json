@@ -1,0 +1,37 @@
+{
+  "ycb_can": {
+    "aperture_offset": [
+      0.0,
+      0.025,
+      0.055
+    ],
+    "thumb_opposition_rad": 1.2,
+    "thumb_mcp_flexion_ratio": 0.4,
+    "thumb_ip_flexion_ratio": 1.2,
+    "contact_closure": {
+      "thumb": 0.37379608154296873,
+      "index": 0.0,
+      "middle": 0.25868530273437496,
+      "ring": 0.30226745605468747,
+      "pinky": 0.0
+    },
+    "force_targets_n": {
+      "thumb": 4.70917612467098,
+      "index": 0.0,
+      "middle": 2.0779147895291064,
+      "ring": 2.2926158962524976,
+      "pinky": 0.0
+    },
+    "nominal_shallow_penetration_m": 0.0005,
+    "geometry_evidence": "results/public_ycb_sidewall_geometry_20261021_r2/ranked.json",
+    "geometry_evidence_sha256": "843e36d5c30d6196a698f9d0e2270765065993f7a75aed7df8fec8da39701e7c",
+    "geometry_scope": "Offline private nominal catalogue geometry and kinematics only; authored scratch qpos writes never touch a task trajectory; no live target pose/COM, no actual RGB-D fit, no physical retention/success claim",
+    "static_sidewall_metrics": {
+      "allocated_max_abs_normal_z": 0.1505738438475419,
+      "allocated_weighted_abs_normal_z": 0.040249025276229755,
+      "closed_hand_table_clearance_m": 0.04107756026212151,
+      "open_approach_robot_table_clearance_m": 0.0547248663491431,
+      "open_approach_hand_mesh_clearance_m": 0.010638271520855789
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format": "selected_shared_normal_observations_v1",
+  "source_summary": {
+    "path": "results/public_ycb_close_deadline_20261022_r18_close32_seed3414_recovered/summary.json",
+    "sha256": "d3d5dec564810d8c9b6a9cc4cee8354062eb9f99c54960ab49b41ad87a740ff0"
+  },
+  "source_preload": {
+    "path": "results/public_ycb_close_deadline_20261022_r18_close32_seed3414_recovered/ycb_can_bias_budget_r17_seed3414/preload.json.gz",
+    "bytes": 34690723,
+    "sha256": "5ad3f42ab572f8e5f28f1e3fc24eb4bf07a79e003db8279f54431f02c0ba7f61"
+  },
+  "projection": "Observed accepted association patches, estimated COM, mass prior and pressures only; carried previous controller reference is not reconstructed; no physics rerun",
+  "samples": [
+    {
+      "timestamp_s": 24.18999999999747,
+      "association_accepted": true,
+      "patches": [
+        {"finger": "thumb", "position_world_m": [0.6780273267808111, -0.012652720513287955, 0.4459487727779552], "normal_on_object_world": [0.9215888014749759, 0.3881581725229789, 0.002704459195292631], "measured_pressure_n": 5.11499789301872, "friction_coefficient": 0.7745966692414834, "input_index": 0},
+        {"finger": "middle", "position_world_m": [0.7429132624542469, 0.006358974283789962, 0.46817206730959093], "normal_on_object_world": [-0.9569582978338123, -0.25254913019906705, -0.14300263299221966], "measured_pressure_n": 2.2453007140898196, "friction_coefficient": 0.7745966692414834, "input_index": 1},
+        {"finger": "middle", "position_world_m": [0.7431863597055793, 0.006355827840733635, 0.46627748714181394], "normal_on_object_world": [-0.9569582978338096, -0.2525491301990549, -0.14300263299225927], "measured_pressure_n": 2.42752168790987, "friction_coefficient": 0.7745966692414834, "input_index": 2},
+        {"finger": "ring", "position_world_m": [0.734192304360564, 0.02353539270402126, 0.4325383035227123], "normal_on_object_world": [-0.7174149522863392, -0.6966381492206737, -0.003327955285791555], "measured_pressure_n": 0.82625829742044, "friction_coefficient": 0.7745966692414834, "input_index": 3}
+      ],
+      "com": [0.7095790097024102, -0.00027558031610650565, 0.42937163936402767],
+      "mass": 0.349,
+      "pressures": {"thumb": 5.11499789301872, "index": 0.0, "middle": 4.67282240199969, "ring": 0.82625829742044, "pinky": 0.0, "palm": 0.0},
+      "recorded_target_feasible": false,
+      "recorded_target_reason": "HYPOTHETICAL_TARGET_NOT_FIXED_NORMAL_1G_COMPATIBLE"
+    },
+    {
+      "timestamp_s": 79.87199999999525,
+      "association_accepted": true,
+      "patches": [
+        {"finger": "thumb", "position_world_m": [0.6773982334866768, -0.012040810503450398, 0.4452214182759414], "normal_on_object_world": [0.9172027908794831, 0.3983931164208573, 0.004686703677915206], "measured_pressure_n": 5.180545372436218, "friction_coefficient": 0.7745966692414834, "input_index": 0},
+        {"finger": "middle", "position_world_m": [0.742457164442591, 0.007252133810033217, 0.466488412314819], "normal_on_object_world": [-0.9789852245882955, -0.19632558321721083, -0.05517422779003424], "measured_pressure_n": 2.241819194154986, "friction_coefficient": 0.7745966692414834, "input_index": 1},
+        {"finger": "middle", "position_world_m": [0.7425267917114502, 0.007241598959629501, 0.46579973365230193], "normal_on_object_world": [-0.9789852245882885, -0.19632558321723242, -0.055174227790082006], "measured_pressure_n": 1.8184207686978828, "friction_coefficient": 0.7745966692414834, "input_index": 2},
+        {"finger": "ring", "position_world_m": [0.7337047077267418, 0.024062989829968406, 0.4322053851639522], "normal_on_object_world": [-0.6959531242971615, -0.7178728421532451, 0.017545121254694245], "measured_pressure_n": 1.1222570231746216, "friction_coefficient": 0.7745966692414834, "input_index": 3}
+      ],
+      "com": [0.7091086114539745, 0.0003374159238868583, 0.4294326903608241],
+      "mass": 0.349,
+      "pressures": {"thumb": 5.180545372436218, "index": 0.0, "middle": 4.060239962852869, "ring": 1.1222570231746216, "pinky": 0.0, "palm": 0.0},
+      "recorded_target_feasible": false,
+      "recorded_target_reason": "HYPOTHETICAL_TARGET_NOT_FIXED_NORMAL_1G_COMPATIBLE"
+    }
+  ]
+}

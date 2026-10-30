@@ -1,0 +1,105 @@
+{
+  "detail": {
+    "accepted": false,
+    "force_error_n": 2.1467881118952814e-05,
+    "patch_count_matches": true,
+    "patch_force_error_n": 0.00010247100837967871,
+    "patch_mask_matches": true,
+    "patch_normal_error": 5.827052616640127e-08,
+    "patch_position_error_m": 2.6178108569752112e-09,
+    "qpos_error_rad": 2.2891400913715998e-08,
+    "qvel_error_rad_s": 1.2379310014942833e-05,
+    "timestamp_s": 7.197999999999429
+  },
+  "error": "replay_mismatch",
+  "failure": "replay_mismatch",
+  "native_audit": {
+    "external_target_qpos_writes": 0,
+    "external_target_qvel_writes": 0,
+    "initial_target_qpos": [
+      0.7063922088707637,
+      -0.00823064505626841,
+      0.38,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "integration_steps": 3599,
+    "native_samples": 3599,
+    "velocity_write_events": [],
+    "write_events": []
+  },
+  "native_cache_channel_peaks_n": {
+    "index": 0.0,
+    "middle": 2.080467294819548,
+    "palm": 0.0,
+    "pinky": 0.0,
+    "ring": 0.0,
+    "thumb": 0.4956353609495083
+  },
+  "strict_monitor": {
+    "accepted_samples": 3599,
+    "channel_peaks_n": {
+      "index": 0.0,
+      "middle": 2.08478936512772,
+      "palm": 0.0,
+      "pinky": 0.0,
+      "ring": 0.0,
+      "thumb": 0.4963570391819523
+    },
+    "checks": {
+      "all_channels_within_12n": true,
+      "held_lift": false,
+      "native_contiguous_2ms": true,
+      "no_external_target_qpos_writes": true,
+      "no_robot_table_penetration": true,
+      "released_stable_3s": false
+    },
+    "discontinuities": 0,
+    "format": "strict_motion_monitor_r28_v1",
+    "held_seconds": 0.0,
+    "last_held": false,
+    "last_released_stable": false,
+    "last_timestamp_s": 7.197999999999429,
+    "minimum_robot_table_distance_m": null,
+    "native_audit_assertions": {
+      "external_target_qpos_writes": 0,
+      "integration_steps": 3599,
+      "native_samples": 3599
+    },
+    "native_audit_supplied": true,
+    "observed_samples": 3599,
+    "original_task_success": false,
+    "phase_peaks_n": {
+      "REPLAY": 2.08478936512772
+    },
+    "rejected_timestamps": 0,
+    "released_stable_seconds": 0.0,
+    "scope": "Privileged target-state motion predicates only; no arbitrary-clutter safety or archive authenticity proof. Strict >70mm rise and >.05N loaded contact; strict release-error/speed/clearance inequalities; whole-episode extrema retained.",
+    "strict_motion_gates_passed": false,
+    "target_privileged_evaluation_only": true,
+    "task_success": false,
+    "thresholds": {
+      "angular_speed_rad_s": 0.2,
+      "channel_peak_n": 12.0,
+      "contact_normal_minimum_n": 0.05,
+      "hand_clearance_m": 0.1,
+      "height_error_m": 0.025,
+      "held_rise_m": 0.07,
+      "held_seconds": 0.1,
+      "linear_speed_m_s": 0.04,
+      "native_timestep_s": 0.002,
+      "released_seconds": 3.0,
+      "robot_table_penetration_m": 0.002,
+      "xy_error_m": 0.025
+    },
+    "whole_episode_peak_n": 2.08478936512772
+  },
+  "success": false,
+  "zone": [
+    0.65,
+    -0.18,
+    0.38
+  ]
+}
