@@ -9,7 +9,9 @@ import zipfile
 
 def main():
     folder = Path(__file__).resolve().parents[1] / "artifacts"
-    files = sorted([*folder.glob("*.zip"), folder / "PROJECT_REPORT.pdf"])
+    files = [folder / name for name in (
+        "r29-runtime-inputs.zip", "r29-recorded-evidence.zip",
+        "mac-reproduction-failure.zip", "PROJECT_REPORT.pdf")]
     records = []
     for path in files:
         if path.suffix == ".zip":

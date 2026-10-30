@@ -63,7 +63,7 @@ Windows 使用 `.\.venv\Scripts\python.exe`，保持 `MUJOCO_GL` 未设置。
 `r29-recorded-evidence.zip` 是历史实际运行的完整记录与视频，按项目相对路径解压后可独立审计。
 输入安装器仍须执行，因为历史审计会检查原输入哈希。
 
-Release 还保留前一版预提交 ZIP，明确作为历史审阅件：它漏带 R29 运行前缀数据，不能单独用于复现。
+前一版预提交 ZIP 仅保留本地，因包含实验室连接资料而不随公开 Release 发布；它也漏带 R29 运行前缀数据。
 当前复现依据是本仓库 commit + `r29-runtime-inputs.zip`；课程最终提交包需从此重新组装。
 
 ## 4. 其他入口
